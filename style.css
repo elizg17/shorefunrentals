@@ -1,0 +1,617 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Theme Name: Shore Fun Rentals
+Author: Beth Griffith, Web 170
+Author URL: ideasbybg.com
+Description: This is my demo theme for the Web 170 class (learning WP)
+*/
+
+
+* {
+	margin:0;
+	padding:0;
+}
+
+
+body {
+
+background: url(images/bg.jpg);
+	background-repeat: repeat-x;
+background-size:100%;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+ }
+
+
+
+p {
+font-size:1em;
+line-height:150%;
+margin-bottom: 10px;
+
+
+
+}
+
+
+h3 {
+font-family:'Raleway', sans-serif;
+	font-size: 1.25em;
+	font-weight:100px; 
+	 color:#00585F;
+
+}
+
+
+h2 {
+font-family:'Raleway', sans-serif;
+font-size: 1.5em;
+font-weight:200px; 
+	 color:#00585F;
+}
+
+
+
+h2  a:link {
+font-family:'Raleway', sans-serif;
+font-size: 1.5em;
+font-weight:200px; 
+color:#00585F;
+text-align:left; 
+}
+
+
+
+ h1 { 
+font-family:'Raleway', sans-serif;
+ color:#00585F;
+ font-weight:200;
+ font-size:2em;
+ text-align:center;
+ padding-top:8px;
+ 
+}
+  
+ #wrapper { 
+ background-color:#efd2a9;
+ width:980px;
+ margin:auto;
+ border-radius: 10px; 
+
+ }
+ 
+ .logo {
+	 
+	 display:block;
+		 margin-left:auto;
+		 margin-right:auto;
+ }
+ 
+ 
+
+ 
+  .tagline { 
+ font-family:'Raleway', sans-serif;
+ font-style:italic;
+ color:#FF3800;
+ font-size:1.313em;
+  font-weight:300;
+ padding-top:8px;
+ text-align:center;
+ 
+}
+ 
+
+ #navMenu {margin-top:10px;}
+
+#navMenu ul{margin:0;padding:0;list-style:none;background:#00585F;text-align:center;position:relative;}
+
+#navMenu ul li{display:inline-block;}
+
+#navMenu ul li a{display:block;height:45px;width:150px;color:#FFFCC4;font-family:'Raleway', sans-serif; font-weight:400;
+font-size:1.17em; line-height:43px;text-decoration:none;transition: background 0.5s linear 0s, color 0.5s linear 0s}
+
+#navMenu ul li a:hover{background:#FF3800;color:#FFFCC4;}
+
+#navMenu ul ul{position:absolute;width:150px; z-index:999; display:none;}
+
+
+#navMenu ul ul li{display:block;background:#009393;}
+
+#navMenu ul li img{vertical-align:middle;padding-left:15px;border:none;}
+
+#navMenu ul li current-menu-item a {color:#FFFCC4;}
+
+/*slider*/
+ 
+ 
+ .mainpics img {
+ width:100%  
+
+}
+
+
+/* bottom picture links*/
+
+
+#bottomsections {
+	
+overflow:hidden;	
+	
+}
+
+
+.plinks {
+display:inline-block;
+float:left;
+height:480px;
+text-align:center;
+margin-right:25px;
+width:300px;
+}
+
+
+.bimg {
+	
+display:inline-block;
+height:auto;
+margin-left:35px;
+margin-right:30px;
+padding:10px;
+
+}
+
+.plinks h2  {
+font-family:'Raleway', sans-serif; 
+font-weight:400;
+font-size: 1.5em;
+line-height:100%;
+margin-bottom:5px;
+margin-left:30px;
+color:#00585f;
+text-align:center;
+	
+}
+
+
+
+ .plinks p {
+font-size:16px; 
+font-family: "Helvetica, Arial", sans-serif;
+line-height:130%;
+margin-left:20px;
+color:#00585f;
+}
+
+.plist {
+
+list-style-type:none
+
+}
+
+
+.plist li {
+
+font-family: "Helvetica, Arial", sans-serif;
+font-size:16px;
+line-height:130%;
+}
+
+
+/* Blog pic */
+
+#mainpics {
+
+float:left;
+width:620px;
+margin-left:10px;
+margin-top:10px;
+}
+
+
+#mainpics img.featured {
+margin-bottom:10px;
+}
+
+#mainpics img {
+max-width:100%;
+height:auto;
+border:1px solid #00585f;
+box-sizing:border-box; 
+padding:4px;
+
+}
+
+#mainpics blockquote {
+border-bottom:1px solid #FF3800;
+border-top:1px solid #FF3800;
+color:#FF3800;
+font-style:italic;
+padding:5px 0;
+margin-bottom:5px;
+
+}
+
+
+#mainpics img.wp-post-image {}
+
+#mainpics img.attachment-thumbnail {
+float:left;
+margin: 0 20px 0 0;
+
+
+}
+
+#mainpics img.attachment-medium {}
+
+#mainpics img.attachment-large {}
+
+#mainpics img.attachment-full {}
+
+
+/* sidebar */
+
+#sidebar {
+float:right;
+width:300px;
+}
+
+#sidebar h2 {
+
+margin-top:15px;
+text-align:center;
+
+}
+
+#sidebar ul {
+list-style:outside none none;
+margin:0
+padding:0 
+}
+
+#sidebar li {
+display:inline;
+}
+
+#sidebar ul, li, a {
+color:#00585f;
+line-height:145%;
+display:block;
+font-family: 'Raleway', sans-serif; 
+font-size:18px;
+font-weight:300;
+text-align:center;
+text-decoration:none; 
+margin:0
+padding:0 
+}
+
+
+
+footer {
+	clear:both;
+	padding:25px, 0 15px;
+	
+}
+
+
+footer {
+	
+	background-color:#00585F;
+	height:200px;
+	
+}
+
+
+.storeinfo  {
+margin: auto, 0;
+padding-top:3px;
+width:100%;	
+
+	
+}
+
+.storeinfo h3 {
+font-family: sans-serif;
+font-size:12pt;
+font-weight:lighter;
+color:#FFFCC4;
+line-height: 125%;
+text-align:center;	
+padding-top:10px;
+
+
+}
+
+.storeinfo p {
+color:#FFFCC4;
+font-size:12pt;
+line-height:135%;
+margin-bottom:3px;
+text-align:center;
+
+}
+
+
+
+.social {
+	margin-top:8px;
+	margin-left:375px;
+	list-style:none;
+	list-style-position:outside;
+	height:15%;
+}
+
+
+.social li {
+	
+float:left;
+	padding:0;
+	margin:0;
+}
+
+
+.social li a {
+	
+display:block;
+float:left;
+padding:0;
+outline:none;
+}
+
+
+.social ul {
+	
+	float:left;
+	display:inline;
+	list-style:none;
+	margin-left:5px;
+}
+
+
+.social h3 {
+	
+	font-family:sans-serif;
+	font-size:12pt;
+	font-weight:200px;
+	color: #FFFCC4;
+	text-align:center;
+	line-height: 125%;
+	padding-top:5px;
+	float:left;
+
+
+}
+
+small {
+
+display:block;	
+text-align:center;
+font-family:sans-serif;
+color: #ff3800;
+font-size:9pt;
+font-weight:200px;	
+clear:both;
+}
+
+
+
+
+/* main content-bikes */
+
+#content{
+max-width: 69%;
+color:#00585F;
+	
+	
+}
+
+.hero  {
+margin-left:15px;
+margin-top:10px;
+
+	}
+
+hr	{
+
+display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: 5px;
+    border-style: inset;
+    border-width: 1px;
+
+}
+
+.bike {
+	position:relative;
+	padding-left: 20px;
+	margin-top:10px;
+	width:90%;
+}
+
+
+
+ .two {
+	position:relative;
+	padding-left: 20px;
+	margin-top:10px;
+	width:90%;
+}
+
+
+.three {
+	position:relative;
+	padding-left: 20px;
+	margin-top:10px;
+	margin-bottom:20px;
+	width:90%;
+}
+
+
+#text {
+background:white;
+float:right;
+padding:10px;
+margin-right:20px;
+margin-top:20px;
+ width:50%;	
+	
+}
+
+
+
+#text2 {
+background:white;
+float:right;
+padding:15px;
+margin-right:20px;
+margin-top:10px;
+ width:50%;	
+}	
+	
+
+
+
+#text3 {
+background:white;
+float:right;
+padding:15px;
+margin-right:20px;
+margin-top:20px;
+ width:50%;		
+	
+}
+
+
+
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+
+#mainpics article.post-excerpt { 
+
+overflow:hidden; 
+margin-bottom:10px;
+border-bottom: 1px solid #00585f;
+
+
+
+}
+
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+
+
